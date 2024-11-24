@@ -4,7 +4,7 @@ import google.generativeai as genai
 import numpy as np
 import xgboost as xgb
 
-genai.configure(api_key="AIzaSyDJMYv21zI4mno5uUOHHi4VCJYXY4HVlhc")
+genai.configure(api_key="")
 
 # Set up the app with multi-page navigation
 st.set_page_config(page_title="Heart Health App", layout="wide")
