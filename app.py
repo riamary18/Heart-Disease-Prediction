@@ -183,7 +183,7 @@ def exercises_page():
 
     headers = {
         'x-rapidapi-host': 'exercisedb.p.rapidapi.com',
-        'x-rapidapi-key': 'fba43f2b34msh33d5f3af56f72dcp1d7427jsn404ee4acdc59' 
+        'x-rapidapi-key': '' 
     }
     response = requests.get(api_url, headers=headers)
 
@@ -218,7 +218,7 @@ def exercises_page():
 
 def diet_page():
     app_id = '955037bf'
-    app_key = 'd16f62c5e9a74c0e598ef2079ea2ee1b'
+    app_key = ''
     api_url = "https://api.edamam.com/api/nutrition-details"
     st.title("Nutritional Analysis for Recipes")
 
